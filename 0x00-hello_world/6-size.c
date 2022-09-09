@@ -16,11 +16,11 @@ int main(void)
 	float e;
 	double float f;
 
-	printf("%d", sizeof(c));
-	printf("%d", sizeof(a));
-	printf("%d", sizeof(b));
-	printf("%d", sizeof(d));
-	printf("%d", sizeof(e));
-	printf("%d", sizeof(f));
+	printf("%d\n", sizeof(c));
+	printf("%d\n", sizeof(a));
+	printf("%d\n", sizeof(b));
+	printf("%d\n", sizeof(d));
+	printf("%d\n", sizeof(e));
+	printf("%d\n", sizeof(f));
 	return (0);
 }
