@@ -9,18 +9,16 @@
 */
 int main(void)
 {
-	int c;
-	char a;
-	long b;
-	long long d;
-	float e;
-	double float f;
+	int i;
+	char c;
+	long li;
+	long long lli;
+	float f;
 
-	printf("%d\n", sizeof(c));
-	printf("%d\n", sizeof(a));
-	printf("%d\n", sizeof(b));
-	printf("%d\n", sizeof(d));
-	printf("%d\n", sizeof(e));
-	printf("%d\n", sizeof(f));
+	printf("Size of a char: %d\n", sizeof(c));
+	printf("Size of a int: %d\n", sizeof(i));
+	printf("Size of a long int: %d\n", sizeof(li));
+	printf("Size of a long long int: %d\n", sizeof(lli));
+	printf("Size of a float: %d\n", sizeof(f));
 	return (0);
 }
