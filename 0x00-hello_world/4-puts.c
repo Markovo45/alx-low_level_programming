@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*print the string in the function*/
+/*main - print the string in the function*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
