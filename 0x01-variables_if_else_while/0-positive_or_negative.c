@@ -8,7 +8,7 @@
  * Description: the main function prints whether
  * the number stored in the variable n is positive or negative
  * followed by a new line.
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
