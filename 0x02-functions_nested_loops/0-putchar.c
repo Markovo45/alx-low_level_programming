@@ -1,12 +1,9 @@
 #include "main.h"
 /**
  * main - prints _putchar.
- *
- * description: Using the main function write a program
- * that prints _putchar, followed by a new line.
- * The program should return 0.
- * Return 0:
+ * Return: 0
  */
+
 int main(void)
 {
 	_putchar('_');
