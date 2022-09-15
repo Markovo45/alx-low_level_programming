@@ -4,6 +4,7 @@
  * @c: is the argument for the function int _isupper.
  * Return: 0.
  */
+
 int _isupper(int c)
 {
 	int c;
