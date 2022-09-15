@@ -2,15 +2,15 @@
 #include <stdio.h>
 /**
  * _abs - prints the absolute value of an integer.
- * @n: the int for the argument of the function
+ * @c: the int for the argument of the function
  * Return: 0
  */
-int _abs(int n)
+int _abs(int c)
 {
-	if (n > 0 || n == 0)
+	if (c > 0 || c == 0)
 	{
-	return (n);
+	return (c);
 	}
 	else
-	return (n * -1);
+	return (c * -1);
 }
