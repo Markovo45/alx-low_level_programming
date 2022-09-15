@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _isupper - checks for upper case letters.
- * int - is the argument for the function int _isupper.
+ * @c: is the argument for the function int _isupper.
  * Return: 0.
  */
-int _isupper(int)
+int _isupper(int c)
 {
 	int c;
 
