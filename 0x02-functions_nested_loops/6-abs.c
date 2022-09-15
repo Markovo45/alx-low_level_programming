@@ -5,7 +5,7 @@
  * @int: the int for the argument of the function
  * Return: 0
  */
-int _abs(int)
+int _abs(int n)
 {
 	int n;
 
