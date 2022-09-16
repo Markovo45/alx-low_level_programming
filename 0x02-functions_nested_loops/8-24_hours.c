@@ -6,12 +6,13 @@
 void jack_bauer(void)
 	{
 	int a = 0;
-	int b = 0;
-	int c = a % 10;
-	int d = b % 10;
 
 	while (a <= 23)
 	{
+		int b = 0;
+		int c = a % 10;
+		int d = b % 10;
+
 	while (b <= 59)
 	{
 		_putchar(a / 10 + '0');
@@ -23,6 +24,5 @@ void jack_bauer(void)
 		_puthcar('\n');
 	}
 	++a;
-	b = 0;
 	}
 	}
