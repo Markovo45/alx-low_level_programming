@@ -6,36 +6,23 @@
 void jack_bauer(void)
 	{
 	int a = 0;
-
-	while (a <= 2)
-	{
 	int b = 0;
+	int c = a % 10;
+	int d = b % 10;
 
-	while (b <= 9)
+	while (a <= 23)
 	{
-	int c = 0;
-
-	while (c <= 5)
+	while (b <= 59)
 	{
-	int d = 0;
-
-	while (d <= 9)
-	{
-	if ((a + b) < 6)
-	{
-		_putchar(a + '0');
-		_putchar(b + '0');
-		_putchar(':');
+		_putchar(a / 10 + '0');
 		_putchar(c + '0');
+		_putchar(':');
+		_putchar(b / 10 + '0');
 		_putchar(d + '0');
-	}
-	_putchar('\n');
-	++d;
-	}
-	++c;
-	}
-	++b;
+		++b;
+		_puthcar('\n');
 	}
 	++a;
+	b = 0;
 	}
 	}
