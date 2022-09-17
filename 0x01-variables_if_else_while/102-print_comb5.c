@@ -11,31 +11,24 @@
 int main(void)
 
 {
-	int a = 0;
-	int b;
+	int a, b;
 
-	while (a <= 98)
+	for (a = 0; a <= 98; a++)
 	{
-		b = a + 1;
-
-		while (b <= 99)
+		for (b = a + 1; b <= 99; b++)
 		{
-			if (a != b)
-			{
+			putchar((a / 10) + '0');
+			putchar((a % 10) + '0');
+			putchar(' ');
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
 
-				putchar((a / 10) + '0');
-				putchar((a % 10) + '0');
-				putchar(' ');
-				putchar((b / 10) + '0');
-				putchar((b % 10) + '0');
-
-			if (a <= 97 && a != b && b <= 99)
-				putchar(',');
-				putchar(' ');
-			}
-			++b;
+			if (a == 98 && b == 99)
+			continue;
+			putchar(',');
+			putchar(' ');
 		}
-		++a;
 	}
 	putchar('\n');
+	return (0);
 }
