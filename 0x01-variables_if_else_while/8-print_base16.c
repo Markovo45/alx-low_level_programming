@@ -18,9 +18,9 @@ int main(void)
 		putchar(a + '0');
 		++a;
 	}
-	while (a <= 70)
+	while (a <= 102)
 	{
-		if (a >= 65 && a <= 70)
+		if (a >= 97 && a <= 102)
 		putchar(a);
 		++a;
 	}
