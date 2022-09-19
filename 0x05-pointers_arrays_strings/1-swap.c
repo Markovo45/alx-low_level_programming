@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * swap_int - swabs the value of pointer.
@@ -8,8 +8,9 @@ i#include "main.h"
  */
 void swap_int(int *a, int *b)
 {
-	int tmp = *a;
+	int temporary;
 
+	temporary = *a;
 	*a = *b;
-	*b = tmp;
+	*b = temporary;
 }
