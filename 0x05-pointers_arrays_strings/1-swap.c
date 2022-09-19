@@ -8,9 +8,8 @@ i#include "main.h"
  */
 void swap_int(int *a, int *b)
 {
-	int temp;
+	int temporary = *a;
 
-	temp = *a;
 	*a = *b;
-	*b = temp;
+	*b = temporary;
 }
