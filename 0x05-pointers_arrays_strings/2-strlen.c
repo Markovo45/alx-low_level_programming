@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * swap_int - swabs the value of pointer.
- * @a: first integer argument
- * @b: Second integer argument.
+ * _strlen - prints length of string.
+ * @s: the function argument
  * Return: 0.
  */
 int _strlen(char *s)
 {
-	int temporary = *a;
+	int length = 0;
 
-	*a = *b;
-	*b = temporary;
+	while (*(s + length) != '\0')
+		++length;
+	return (length);
 }
