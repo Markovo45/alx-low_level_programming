@@ -11,8 +11,8 @@ void _puts(char *str)
 
 	while (*(str + length) != '\0')
 	{
-		_putchar(*(str + length));
+		putchar(*(str + length));
 		++length;
 	}
-	return (0);
+	putchar('\n');
 }
