@@ -11,24 +11,27 @@
 int main(void)
 {
 	int n = 1;
+	char a[] = "Fizz";
+	char b[] = "Buzz";
+	char c[] = "FizzBuzz";
 
 	while (n <= 100)
 	{
 		if (n == 100)
 		{
-			printf("Fizz");
+			printf("%s", b);
 		}
 		else if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			printf("%s ", c);
 		}
 		else if (n % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("%s ", a);
 		}
 		else if (n % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("%s ", b);
 		}
 		else
 		{
