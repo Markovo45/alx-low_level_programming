@@ -18,25 +18,15 @@ int main(void)
 	while (n <= 100)
 	{
 		if (n == 100)
-		{
 			printf("%s", b);
-		}
 		else if ((n % 3 == 0) && (n % 5 == 0))
-		{
 			printf("%s ", c);
-		}
 		else if (n % 3 == 0)
-		{
 			printf("%s ", a);
-		}
 		else if (n % 5 == 0)
-		{
 			printf("%s ", b);
-		}
 		else
-		{
 			printf("%d", n);
-		}
 		++n;
 	}
 	printf("\n");
