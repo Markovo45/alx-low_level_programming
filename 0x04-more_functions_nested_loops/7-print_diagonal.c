@@ -9,6 +9,7 @@
 void print_line(int n)
 {
 	int a;
+	int b;
 
 	if (n <= 0)
 		_putchar('\n');
@@ -18,6 +19,13 @@ void print_line(int n)
 
 		while (a <= n)
 		{
+			b = 1;
+
+			while (b < a)
+			{
+				_putchar(' ');
+				++b;
+			}
 			_putchar('\\');
 			++a;
 		}
