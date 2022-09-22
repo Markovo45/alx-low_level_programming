@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints a straight in the terminal.
+ * print_diagonal - prints a straight in the terminal.
  * @n: argument for the function.
  * Return: 0.
  */
@@ -27,8 +27,8 @@ void print_diagonal(int n)
 				++b;
 			}
 			_putchar('\\');
+			_putchar('\n');
 			++a;
 		}
-		_putchar('\n');
 	}
 }
