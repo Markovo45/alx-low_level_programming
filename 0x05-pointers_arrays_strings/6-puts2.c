@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts2 - prints half the length of string.
+ * puts2 - prints half the length of string.
  * @str: the function argument
  * Return: 0.
  */
