@@ -5,7 +5,7 @@
  * @str: the function argument
  * Return: 0.
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int a;
 	int b = 0;
