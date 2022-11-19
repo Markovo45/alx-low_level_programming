@@ -10,6 +10,6 @@ int _strcmp(char *s1, char *s2)
 	int index = 0;
 
 	while (s1[index] == s2[index])
-		++index;
+		index++;
 	return (s1[index] - s2[index]);
 }
