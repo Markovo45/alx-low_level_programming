@@ -8,16 +8,13 @@
  */
 int main(void)
 {
-	int a = 0;
+	int a = 1;
 	int sum = 0;
 
 	while (a < 1024)
 	{
-		if ((((a % 3) == 0) || ((a % 5) == 0)) && a != 0)
-		{
-			printf("%d, ", a);
+		if (a % 3 == 0 || a % 5 == 0)
 			sum = sum + a;
-		}
 		++a;
 	}
 	printf("%d", sum);
