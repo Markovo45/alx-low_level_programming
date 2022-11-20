@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - computes and prints the sum of all the multiples.
  * Description: the function main Write a program that computes
